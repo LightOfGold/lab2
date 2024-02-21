@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛР№2_HTML_Forms</title>
+</head>
+<body>
+	<form>
+		<div class="bl1">
+			<label for="fname">Name</label><br><br>
+			<input type="text" id="fname" name="fname" required placeholder="Maxim"><br><br>
+			<label for="password">Password</label><br><br>
+			<input type="password" id="password" name="password" required><br><br>
+			<label for="tel">Telephone</label><br><br>
+			<input type="tel" id="tel" name="tel" placeholder="0-000-000">
+		</div>
+		<div class="bl2">
+			<p><label for="fname">Gender</label></p>
+			<input type="radio" id="male" name="gender" value="Male">
+        	<label for="male">Male</label>
+        	<input type="radio" id="female" name="gender" value="Female">
+        	<label for="female">Female</label>
+		</div>
+		<div class="bl3">
+			<p><label for="Mell">Mell</label></p>
+			<input type="checkbox" id="pizza" name="fav_food" value="Pizza">
+			<label for="pizza">Pizza</label>
+			<input type="checkbox" id="salad" name="fav_food" value="Salad">
+			<label for="salad">Salad</label>
+			<input type="checkbox" id="burger" name="fav_food" value="Burger">
+			<label for="burger">Burger</label>
+		</div>
+		<div class="bl4">
+			<p><label for="quantity">Quantity</label></p>
+			<input type="text" id="quantity" name="quantity" size="3" placeholder="3"><br>
+		</div>
+		<div class="bl5">
+			<p><label for="color">Favorite color</label></p>
+			<input type="color">
+		</div>
+		<div class="bl6">
+			<p><label for="About">About yourself</label></p>
+			<textarea type="text" id="About" name="About"> </textarea><br>
+		</div>
+		<div class="bl7">
+			<p><label for="myfile">You photo</label></p>
+			<input type="file" id="myfile" name="myfile">
+		</div>
+		<div class="bl8">
+			<p>
+			<button type="submit">Send</button>
+			<button type="reset">Clear</button>
+			</p>
+		</div>
+	</form>
+</body>
+</html>
